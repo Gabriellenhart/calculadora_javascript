@@ -1,0 +1,31 @@
+section {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  padding: 5px;
+  height: 40vh;
+  width: 100%;
+}
+
+span {
+  text-align: center;
+}
+
+button {
+  align-items: stretch;
+  width: calc(100% / 4);
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.visor {
+  flex-grow: 10;
+  background-color: #C0C0C0;
+  height: 100px;
+  font-size: 50px;
+  padding-bottom: 10px;
+  border: black;
+}
+
+.botton_C {
+  background-color: #F08080;
+}
